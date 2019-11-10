@@ -1,0 +1,341 @@
+/*!
+ * Fong Diner #1 Main Styling by Jayson Fong
+ * Created for Gwinnett Technical College
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, "Times New Roman", serif;
+}
+
+header {
+  background-color: #f1f1f1;
+  height: 85px;
+  margin-left: 15%;
+  border-bottom: 2px solid #fe814b;
+}
+
+#logo {
+	margin-left: 15%;
+	width: 20%;
+	float: left;
+}
+
+#logo img {
+	margin: 12px 0;
+}
+
+#slogan {
+	margin-right: 15%;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+}
+
+nav {
+	padding: 12px 18px;
+	background: #555;
+	color: #f1f1f1;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	width: 15%;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#pagelist {
+	margin-left: 10%;
+	float: left;
+	width: 40%;
+}
+
+#social {
+	margin: 0;
+	text-align: center;
+	bottom: 24px;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fe814b;
+}
+
+a:active {
+	color: #e84600;
+}
+
+a:hover {
+	color: #f75916;
+}
+
+nav a, nav a:link, nav a:visited {
+	font-weight: 900;
+	font-size: 1.5em;
+	padding: 0 10px;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+main {
+	margin: 16px 5% 0 20%;
+	height: auto;
+}
+
+table {
+	margin-top: 5px;
+}
+
+#membership, #menu {
+	width: 100%;
+}
+
+#membership td, #menu td {
+	padding: 5px 0;
+}
+
+#membership td:nth-of-type(odd), #menu td:nth-of-type(odd) {
+	text-align: center;
+}
+
+#membership tr:nth-of-type(even), #menu tr:nth-of-type(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	font-size: 1.1em;
+	font-weight: 700;
+	background-color: #dbd9d9;
+	padding: 5px 0;
+}
+
+footer {
+	margin: 16px 5% 16px 20%;
+	border-top: 1px solid #fe814b;
+	bottom: 0;
+	width: 75%;
+	height: 20%;
+}
+
+.floatleft {
+	float: left;
+}
+
+footer .floatleft {
+	text-align: left;
+}
+
+.floatright {
+	float: right;
+	clear: right;
+}
+
+footer .floatright {
+	text-align: right;
+}
+
+img .alignright {
+	position: relative;
+	text-align: right;
+}
+
+#explore {
+	padding-left: 0;
+}
+
+#explore li {
+	list-style-type: none;
+	width: 100%;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 1.5em;
+	color: #fe814b;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 1.3em;
+	color: #fe9c4b;
+}
+
+h3 {
+	font-weight: 900;
+	font-size: 1em;
+	color: #feaa4b;
+	text-align: center;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+.flex {
+	display: flex;
+	padding: 10px 0;
+}
+
+.leftspace {
+	margin-left: 10px;
+}
+
+#events {
+	padding-top: 18px;
+}
+
+#padthai {
+	width: 350px;
+}
+
+#floor {
+	width: 500px;
+}
+
+figcaption {
+	font-size: 0.8em;
+}
+
+#straightlist {
+	display: none;
+}
+
+/*!
+ * Displayed on Mid-Sized
+*/
+@media only screen and (max-width: 1024px) {
+	nav {
+		text-align: center;
+		height: auto;
+		position: initial;
+		z-index: 0;
+		top: auto;
+		left: auto;
+		overflow-x: hidden;
+		width: auto;
+	}
+	#navlist, #social {
+		display: none;
+	}
+	#straightlist {
+		display: contents;
+	}
+	#straightlist a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	header {
+		margin-left: 0;
+	}
+	main {
+		margin: 16px 5% 0 5%;
+	}
+	footer {
+		margin: 16px 5% 16px 5%;
+		width: 90%;
+	}
+}
+
+/*!
+ * Displayed on Small Screens
+*/
+
+@media only screen and (max-width: 768px) {
+	
+	#slogan, .desktop, #social, #straightlist {
+		display: none;
+	}
+	#navlist {
+		display: contents;
+	}
+	header {
+		display: none;
+	}
+	
+	nav {
+		text-align: center;
+		height: auto;
+		position: initial;
+		z-index: 0;
+		top: auto;
+		left: auto;
+		overflow-x: hidden;
+		width: auto;
+	}
+	nav a, nav a:link, nav a:visited {
+		font-size: 1.5em;
+	}
+	nav li {
+		border-bottom: 1px solid #fe814b;
+		width: 100%;
+	}
+	img:not(#mintsmap) {
+		width: 80%;
+	}
+	.mobile {
+		display: inline;
+	}
+	footer .floatleft, footer .floatright {
+		float: none;
+		text-align: left;
+	}
+	main, footer {
+		margin: 16px 5% 16px 5%;
+		width: 90%;
+	}
+	#exploretitle {
+		border-top: 1px solid #fe814b;
+		padding-bottom: 5px;
+	}
+	.flex {
+		display: inline;
+	}
+	.leftspace {
+		margin: 0;
+	}
+	#floor, #padthai, #mintsmap {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 5%;
+	}
+}
+
+/*!
+ * Icons
+*/
+
+.icrotate:hover {
+	-webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.icrotatec:hover {
+	-webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.lgicon {
+	font-weight: 900;
+	color: #feaa4b;
+	text-align: center;
+	font-size: 2em;
+}

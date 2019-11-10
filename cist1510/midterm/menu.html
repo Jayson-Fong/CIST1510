@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<!--
+		Created by Jayson Fong 2019
+			contact@jaysonfong.me
+			Created for Gwinnett Technical College
+			-->
+			
+		<meta charset="UTF-8" />
+		<meta name="description" content="Fong Diner" />
+		<meta name="keywords" content="Fong,Diner,Dinner,Restaurant,Atlanta,Breakfest,Lunch,All-Day,Chinese" />
+		<meta name="author" content="Fong Diner" />
+		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+		
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/pace-theme.css" />
+		<!-- Includes FontAwesome Icons -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+		
+		<title>Menu | Fong Diner #1</title>
+	</head>
+	<body>
+		<header>
+			<img id="logo" src="img/logo.png" alt="Fong Diner #1 Logo" />
+			<span id="slogan"><span class="bold" title="Made by Asians!">Genuine</span> Asian Cuisine Right in Atlanta!</span>
+		</header>
+
+		<nav id="navigation">
+			<!-- Sidebar Navigation (Vertical on Mobile) -->
+			<div>
+				<div id="straightlist">
+					<a href="index.html">Home</a>
+					<a href="menu.html">Menu</a>
+					<a href="events.html">Events</a>
+					<a href="membership.html">Membership</a>
+				</div>
+				<ul id="navlist">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="membership.html">Membership</a></li>
+				</ul>
+			</div>
+			<!-- Navigation Right Social Icons -->
+			<div id="social">
+				<a href="https://twitter.com/gwinnetttech"><i class="fab fa-twitter icrotate"></i></a>
+				<a href="https://facebook.com/gwinnetttech"><i class="fab fa-facebook-f icrotatec"></i></a>
+			</div>
+			<!-- End Navigation Social Icons -->
+			<!-- End Navigation -->
+		</nav>
+
+		<main>
+			<h1>A Sniff of Our Cuisine</h1>
+			<p>With over 100 offerings from across Asia, here are some of our guests' favorites without a doubt.
+			
+			<!-- Table of the Menu -->
+			<table id="menu">
+				<tr>
+					<th>Name</th>
+					<th>Description</th>
+					<th>Price</th>
+				</tr>
+				<tr>
+					<td class="bold">Laotian Yaw</td>
+					<td>
+						<p>A delightful taste of Laos with a squishy texture which reminds one of rice yet tofu at the same time.
+					</td>
+					<td>$7</td>
+				</tr>
+				<tr>
+					<td class="bold">Pad Thai</td>
+					<td>
+						<p>A tasty mixture of noodles, shrimp, chicken, and more with a mild kick of traditonal Thai spice.
+					</td>
+					<td>$12</td>
+				</tr>
+				<tr>
+					<td class="bold">Vietnamese Pho</td>
+					<td>
+						<p>A beautiful mix of noodles and meats in a bowl of soup. Enjoy it alone or add in extra spieces for flavor.
+					</td>
+					<td>$14</td>
+				</tr>
+			</table>
+						
+			<!-- Dish of the Month Section -->
+			
+			<div class="flex">
+				<div>
+					<img id="padthai" alt="Pad Thai" src="img/padthai.jpg" />
+				</div>
+				<div class="leftspace">
+					<h2>Dish of the Month</h2>
+					<p>Pad Thai is a fan favorite and every Thursday between 6:00PM and 7:40PM EST, enjoy 75% off on them! Our chefs studied traditional Thai cooking habits for nearly three years perfecting their recipe to provide you with the perfect combination of ingredients to bring Thailand to you.</p>
+				</div>
+			</div>
+			<div class = "flex">
+				<div>
+					<h2>Join in on the Fun</h2>
+					<p>Join in on the fun to be had! Get membership today for exclusive perks and find events to rock your night away!</p>
+				</div>
+				<div>
+					<figure>
+						<img id="mintsmap" usemap="#mintmap" alt="Free Mint Steps" src="img/mintsmap.png" />
+						<figcaption>Click a bubble to find your way!</figcaption>
+					</figure>
+					<map name="mintmap">
+						<area alt="Get Membership" title="Get Membership" href="membership.html" coords="50,112,42,115,35,115,30,114,23,109,19,101,14,95,8,93,4,85,3,76,6,68,12,64,15,56,19,50,26,46,35,44,43,44,49,48,55,42,63,41,70,41,76,44,81,48,87,52,94,53,99,56,104,61,106,67,107,73,106,79,103,84,106,90,107,98,105,105,100,111,93,113,85,113,79,115,73,118,66,119,60,119,55,116" shape="poly">
+						<area alt="Find Events" title="Find Events" href="events.html" coords="142,73,132,77,123,74,115,70,111,62,108,56,101,53,95,46,94,37,99,29,105,25,107,18,111,11,118,6,125,4,132,4,138,6,145,3,152,2,159,2,166,3,172,8,178,12,185,13,192,17,196,23,198,31,198,37,196,43,197,49,199,56,198,63,196,68,191,72,186,75,179,74,173,74,165,79,159,80,151,80" shape="poly">
+					</map>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			<div class="floatleft">
+				<h1>Contact</h1>
+				<p><a href="mailto:contact@jaysonfong.me"><i class="fas fa-envelope"></i> contact@jaysonfong.me</a></p>
+				<!-- Displays on Mobile Devices / Small Screens -->
+				<span class="mobile"><a href="tel:7709627280"><i class="fas fa-phone"></i> +1 (770) 962-7580</a></span>
+				<!-- Displays on Laptop Devices / Large Screens -->
+				<span class="desktop"><i class="fas fa-phone"></i> +1 (770) 962-7280</span>
+				<p><i class="fas fa-map-pin"></i> 5150 Sugarloaf Pkwy<br/>Lawrenceville, GA 30046</p>
+			</div>
+			<br class="mobile" />
+			<div id="exploretitle" class="floatright">
+				<h1>Explore</h1>
+				<ul id="explore">
+					<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+					<li><a href="menu.html"><i class="fas fa-list-ul"></i> Menu</a></li>
+					<li><a href="events.html"><i class="fas fa-glass-cheers"></i> Events</a></li>
+					<li><a href="membership.html"><i class="fas fa-id-card"></i> Membership</a></li>
+				</ul>
+			</div>
+		</footer>
+		<script src="js/pace.js"></script>
+	</body>
+</html>
