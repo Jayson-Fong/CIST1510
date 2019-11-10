@@ -1,0 +1,52 @@
+nav {
+	background-color: #404040;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+nav h1 {
+	color: #f0f0f0;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 5%;
+	margin-right:
+}
+
+i {
+	color: #fff;
+}
+
+main {
+	margin: 7% 5% 0 5%;
+}
+
+table {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #ebe8e8;
+}
+
+tr:first-child {
+	background-color: #d1cdcd;
+}
+
+td {
+	padding: 5px 5px;
+	text-align: center;
+}
+
+a, a:link {
+	text-decoration: none;
+}
+
+a:link {
+	color: #47b828;
+	
+}
