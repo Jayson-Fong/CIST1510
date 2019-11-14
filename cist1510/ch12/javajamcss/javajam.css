@@ -75,6 +75,10 @@ tr:nth-of-type(odd) {
 	background-color: #D2B48E;
 }
 
+.item img {
+	float: right;
+}
+
 h4 {
 	background-color: #D2B48C;
 	font-size: 1.2em;
