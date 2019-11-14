@@ -204,6 +204,10 @@ audio {
 	overflow: auto;
 }
 
+.item img {
+	float: right;
+}
+
 #herocouch {
 	height: 250px;
 	background-image: url(../img/herocouch.jpg);
