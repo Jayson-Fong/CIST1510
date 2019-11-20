@@ -1,0 +1,38 @@
+body {
+	background-color: #575757;
+	margin: 0;
+}
+nav {
+	background-color: #404040;
+	top: 0;
+	left: 0;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #f7f7f7;
+	overflow: auto;
+}
+
+h1, li, p {
+	color: #f0f0f0;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+li, p {
+	font-size: 1em;
+}
+
+i {
+	color: #fff;
+}
+
+#letters {
+		text-align: center;
+		float: center;
+		vertical-align: center;
+}
