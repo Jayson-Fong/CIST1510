@@ -1,0 +1,93 @@
+#page {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#page img {
+	width: 50%;
+}
+
+#content {
+	vertical-align: bottom;
+	text-align: right;
+	width: 100%;
+}
+
+#page a, #page a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+#page a:hover {
+	color: #2b2b2b;
+}
+
+/* Start Animation by https://www.gradient-animator.com/ */
+
+#p1 {
+	background: linear-gradient(270deg, #11e314, #28d82a, #28d8be, #28d880);
+	background-size: 1600% 1600%;
+
+	-webkit-animation: rainbow 30s ease infinite;
+	-moz-animation: rainbow 30s ease infinite;
+	animation: rainbow 30s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+	0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* End Animation by https://www.gradient-animator.com/ */
+
+#part1 {
+	width: 100%;
+	min-height: 1000px;
+}
+
+#part1 td {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+#row1 td {
+	border: 3px ridge #0088FF;
+}
+
+#row2 td {
+	border: 3px ridge #FFAA00;
+}
+
+#row3 td {
+	border: 3px ridge #FF7700;
+}
+
+#row4 td {
+	border: 3px ridge #FF0033;
+}
+
+#row5 td {
+	border: 3px ridge #9911AA;
+}
+
+#row6 td {
+	border: 3px ridge #AADD22;
+}
+
+#middle {
+	color: #fff;
+	font-weight: 900;
+	border: 6px inset #00FF00;
+	background: linear-gradient( rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.6) ), url(../img/education.jpg);
+}
