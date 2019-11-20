@@ -89,5 +89,7 @@
 	color: #fff;
 	font-weight: 900;
 	border: 6px inset #00FF00;
+    background-repeat: none;
+    background-size: cover;
 	background: linear-gradient( rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.6) ), url(../img/education.jpg);
 }
