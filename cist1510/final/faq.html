@@ -26,17 +26,24 @@
 
 	<body>
 	
+        <!-- Begin Header Block -->
+        
 		<header>
 			<div class="wrap">
 				<div class="flex">
 					<div id="logo">
 						<h1>
-							<a href="index.html"><img src="img/logo.png" /> Devify</a>
+							<a href="index.html"><img alt="Devify Logo" src="img/logo.png" /> Devify</a>
 						</h1>
-						<h1 class="mobile">
+                        <!-- Start Mobile Navigation Expand Button -->
+						<span class="mobile">
 							<a href="javascript:void(0);" onclick="navExpand()" id="expand" title="Toggle Navigation"><i id="expander" class="fa fa-bars"></i></a>
-						</h1>
+						</span>
+                        <!-- End Mobile Navigation Expand Button -->
 					</div>
+                    
+                    <!-- Start Navigation -->
+                    
 					<div id="nav">
 						<ul>
 							<li class="navBorder"><a href="index.html" class="desktop"><i class="icon fas fa-home"></i></a><a href="index.html" class="mobile"><p>Home</p></a></li>
@@ -46,15 +53,24 @@
 							<li><a href="#contact"><p>Contact</p></a></li>
 						</ul>
 					</div>
+                    
+                    <!-- End Navigation -->
+                    
 				</div>
 			</div>
 		</header>
+        
+        <!-- End Header Block -->
+        
 		<main>
-			<div id="faqBanner">
+            <!-- Start Top Banner -->
+			<div id="genBanner">
 				<div class="overlay">
 					<h1>Frequently Asked Questions</h1>
 				</div>
 			</div>
+            <!-- End Top Banner -->
+            <!-- Begin Main Content -->
 			<div id="content">
 				<div class="wrap">
 					<h1>Why is Web Design Important?</h1>
@@ -74,7 +90,7 @@
 							<a href="https://careerfoundry.com/en/blog/web-development/5-reasons-why-you-should-learn-web-development-instead-of-native-development/" class="button">Learn More</a>
 						</div>
 						<div class="reqFrame">
-							<iframe src="https://careerfoundry.com/en/blog/web-development/5-reasons-why-you-should-learn-web-development-instead-of-native-development/" style="border:0px #ffffff none;" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="200px" width="1000px" allowfullscreen></iframe>
+							<iframe src="https://careerfoundry.com/en/blog/web-development/5-reasons-why-you-should-learn-web-development-instead-of-native-development/" style="border:0px #ffffff none;" height="200" width="1000" allowfullscreen></iframe>
 						</div>
 					</div>
 					<h1>How do I get started?</h1>
@@ -88,10 +104,14 @@
 					</div>
 				</div>
 			</div>
+            <!-- End Main Content -->
 		</main>
+        
+        <!-- Start Footer -->
 		
 		<footer>
 			<div class="wrap flex">
+                <!-- Start Contact Block -->
 				<div id="contact">
 					<h1>Contact</h1>
 					<ul>
@@ -107,6 +127,8 @@
 						</li>
 					</ul>
 				</div>
+                <!-- End Contact Block -->
+                <!-- Begin About Block -->
 				<div id="about">
 					<h1>About</h1>
 					<ul>
@@ -115,20 +137,26 @@
 						</li>
 					</ul>
 				</div>
+                <!-- End About Block -->
+                <!-- Begin Links Block -->
 				<div id="links">
 					<h1>Links</h1>
 					<ul>
 						<li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
 					</ul>
 				</div>
+                <!-- End Links Block -->
 			</div>
-			<p>&copy; Devify 2019 - All Rights Reserved | <a href="privacy.html">Privacy Policy</a></p>
+            <!-- Copyright Notice -->
+			<p>&copy; Devify 2019 - All Rights Reserved</p>
 			<a id="up" class="desktop" href="#nav" title="Back to Top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+            <a id="back" href="" class="desktop" onclick="if (document.referrer.indexOf(window.location.host) !== -1) { history.go(-1); return false; } else { window.location.href = 'https://gtc.jaysonfong.us/cist1510/final/'; }"><i class="fas fa-step-backward"></i></a>
 		</footer>
 	
-		<script type="text/javascript" src="js/mobilenav.js"></script>
+		<script src="js/mobilenav.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dd184cfe5003d1b"></script> 
+		<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dd184cfe5003d1b"></script> 
 	</body>
 
 </html>

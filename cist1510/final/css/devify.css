@@ -26,6 +26,7 @@ header {
 	z-index: 1;
 }
 
+/* Adds Margins to the Sides */
 .wrap {
 	width: 80%;
 	padding: 0 10%;
@@ -76,7 +77,10 @@ header {
 	padding: 5px 0;
 	top: 15px;
 	position: absolute;
+    font-size: 2em;
 }
+
+/* Image Displayed on Home Page */
 
 #homeBanner {
 	background: linear-gradient( rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.6) ), url(../img/homeBanner.jpeg);
@@ -89,12 +93,11 @@ header {
 	border-bottom: 2px solid #3a7ae8;
 }
 
-#faqBanner {
-	background: linear-gradient( rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.6) ), url(../img/homeBanner.jpeg);
-	background-repeat: no-repeat;
+/* Generic Banner */
+
+#genBanner {
+	background-color: #3a7ae8;
 	width: 100%;
-	background-size: cover;
-	background-color: #000;
 	text-align: left;
 	border-bottom: 2px solid #3a7ae8;
 }
@@ -103,15 +106,15 @@ header {
 	transform: translate(0, 150px);
 }
 
-#homeBanner h1, #faqBanner h1 {
+#homeBanner h1, #genBanner h1 {
 	margin: 0;
 }
 
-#faqBanner h1 {
+#genBanner h1 {
 	margin-left: 10%;
 }
 
-#homeBanner p, #homeBanner h1, #faqBanner p, #faqBanner h1 {
+#homeBanner p, #homeBanner h1, #genBanner p, #genBanner h1 {
 	color: #fff;
 }
 
@@ -134,6 +137,10 @@ header {
 		padding: 10px;
 }
 
+.youtube {
+    border: none;
+}
+
 .reqTable, .reqTable table {
 	max-width: 100%;
 	max-height: 30%;
@@ -154,6 +161,8 @@ header {
 	text-decoration: none;
 	color: #11cdef;
 }
+
+/* Changes background color for even numbered table rows */
 
 #certifications tr:nth-child(even) {
 	background-color: #ededed;
@@ -193,6 +202,8 @@ footer ul {
 	display: flex;
 }
 
+/* Used for some FontAwesome icon backgrounds */
+
 .icon {
 	color: #fff;
 	font-weight: 900;
@@ -213,7 +224,7 @@ footer ul {
 }
 
 .icon:hover, button:hover {
-		background-color: #11b6d4; 
+    background-color: #11b6d4; 
 }
 
 #up {
@@ -221,6 +232,15 @@ footer ul {
 	position: fixed;
 	bottom: 0;
 	right: 0;
+	color: #1961cf;
+	padding: 15px;
+}
+
+#back {
+	font-size: 3em;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 	color: #1961cf;
 	padding: 15px;
 }
