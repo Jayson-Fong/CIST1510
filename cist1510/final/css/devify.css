@@ -149,6 +149,31 @@ header {
 	padding: 10px;
 }
 
+.tableBox, .tableBox table {
+    width: 100%;
+    text-align: left;
+}
+
+.tableBox tr:nth-of-type(odd) {
+    background-color: #ebe8e8;
+}
+
+.tableBox td, .tableBox th {
+    padding: 5px;
+}
+
+code {
+    display: block;
+    background-color: #ebe8e8;
+}
+
+form input, form textarea {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    background-color: #ebe8e8;
+}
+
 #certifications {
 	width: 100%;
 }
@@ -202,6 +227,19 @@ footer ul {
 	display: flex;
 }
 
+.halfPiece {
+    min-width: 50%;
+}
+
+#content a, #content a:link {
+    text-decoration: none;
+    color: #3a7ae8;
+}
+
+#content a:hover {
+    color: #172b4d;
+}
+
 /* Used for some FontAwesome icon backgrounds */
 
 .icon {
@@ -214,7 +252,7 @@ footer ul {
 }
 
 .button {
-	color: #fff;
+	color: #fff !important;
 	font-weight: 900;
 	background-color: #11cdef;
 	text-align: center;
@@ -225,6 +263,10 @@ footer ul {
 
 .icon:hover, button:hover {
     background-color: #11b6d4; 
+}
+
+.button a:link, .button a, .button a:hover {
+    color: #fff !important;
 }
 
 #up {

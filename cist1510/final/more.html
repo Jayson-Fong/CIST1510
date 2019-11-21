@@ -21,7 +21,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 		
-		<title>iFrames | Examples</title>
+		<title>Ask for More | Examples</title>
 	</head>
 
 	<body>
@@ -66,55 +66,35 @@
             <!-- Start Top Banner -->
 			<div id="genBanner">
 				<div class="overlay">
-					<h1>Examples</h1>
+					<h1>Ask for More</h1>
 				</div>
 			</div>
             <!-- End Top Banner -->
             <!-- Begin Main Content -->
 			<div id="content">
 				<div class="wrap">
-                    <h1>iFrames</h1>
+                    <h1>We Want Your Feedback!</h1>
 					<div class="flex">
-						<div class="halfPiece">
-                            <p>iFrames allow the display of other pages both internal and external. Alongside the standard, iFrames support the following attributes in HTML5:</p>
-                            <div class="tableBox">
-                                <table>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                    </tr>
-                                    <tr>
-                                        <td>name</td>
-                                        <td>Specifies a name for the iframe.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>sandbox</td>
-                                        <td>Sets restrictions for content in an iframe.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>src</td>
-                                        <td>Specifies the source URL.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>srcdoc</td>
-                                        <td>Sets HTML content of the page to display in an iframe.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>width</td>
-                                        <td>Sets the width of an iframe.</td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <p>While managing iframes, note that some websites do not permit the hotlinking of them due to security reasons. Generally, this can be fixed using a local proxy, however may not be efficient or properly handle all requests.</p>
-						</div>
-						<div class="halfPiece">
-                            <div class="reqFrame">
-				                <iframe  width="400" height="200" src="https://gtc.jaysonfong.us/cist1510/final/example-iframe.html" allowfullscreen></iframe>
-                            </div>
-                            <p>Iframe of this page via the following HTML:</p>
-                            <code>
-                                &#x3C;iframe width=&#x22;400&#x22; height=&#x22;200&#x22; src=&#x22;https://gtc.jaysonfong.us/cist1510/final/example-iframe.html&#x22; allowfullscreen&#x3E;&#x3C;/iframe&#x3E;
-                            </code>
+                        <div class="halfPiece">
+                            <p>We love helping our community. Help us out by providing us details on what you want to see.</p>
+                            <p>Your phone and email will only be used for security purposes and to notify you in case we use your example!</p>
+                            <p>A example URL is required for us to know what you'd like to see.</p>
+                        </div>
+                        <div class="halfPiece">
+                            <form action="#" method="post">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Doe" /><br/>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="john_doe@example.com" title="Invalid Email" required /><br/>
+                                <label for="phone">Phone</label>
+                                <input type="tel" name="phone" id="phone" placeholder="770-962-7580" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                                <label for="comments">Comments</label>
+                                <textarea rows="4" cols="50" name="comments" id="comments" minlength="25" title="Please enter feedback." required></textarea>
+                                <label for="example">Example URL</label>
+                                <input type="url" name="example" id="example" placeholder="https://example.com" required />
+                                <input type="submit" value="Submit Feedback" />
+                                <input type="reset" value="Reset Form" />
+                            </form>
                         </div>
 					</div>
 				</div>
