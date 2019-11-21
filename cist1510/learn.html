@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<!--
+		Created by Jayson Fong 2019
+		Created for Gwinnett Technical College
+		Licensed Under the MIT License to the Public
+		-->
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Get to know Devify's mission." />
+		<meta name="keywords" content="Devify,Create,Websites,Web Design,Web Development,FAQ,Frequently Asked Questions" />
+		<meta name="author" content="Devify" />
+		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+		
+		<link rel="icon" href="img/logo.png" type="image/png" />
+		<link rel="stylesheet" type="text/css" href="css/devify.css" />
+		<link rel="stylesheet" type="text/css" href="css/pace.css" />
+		
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+		
+		<title>Learn | Devify</title>
+	</head>
+
+	<body>
+	
+        <!-- Begin Header Block -->
+        
+		<header>
+			<div class="wrap">
+				<div class="flex">
+					<div id="logo">
+						<h1>
+							<a href="index.html"><img alt="Devify Logo" src="img/logo.png" /> Devify</a>
+						</h1>
+                        <!-- Start Mobile Navigation Expand Button -->
+						<span class="mobile">
+							<a href="javascript:void(0);" onclick="navExpand()" id="expand" title="Toggle Navigation"><i id="expander" class="fa fa-bars"></i></a>
+						</span>
+                        <!-- End Mobile Navigation Expand Button -->
+					</div>
+                    
+                    <!-- Start Navigation -->
+                    
+					<div id="nav">
+						<ul>
+							<li class="navBorder"><a href="index.html" class="desktop"><i class="icon fas fa-home"></i></a><a href="index.html" class="mobile"><p>Home</p></a></li>
+							<li class="navBorder"><a href="learn.html"><p>Learn</p></a></li>
+							<li class="navBorder"><a href="examples.html"><p>Examples</p></a></li>
+							<li class="navBorder"><a href="resources.html"><p>Resources</p></a></li>
+							<li><a href="#contact"><p>Contact</p></a></li>
+						</ul>
+					</div>
+                    
+                    <!-- End Navigation -->
+                    
+				</div>
+			</div>
+		</header>
+        
+        <!-- End Header Block -->
+        
+		<main>
+            <!-- Start Top Banner -->
+			<div id="genBanner">
+				<div class="overlay">
+					<h1>Learn</h1>
+				</div>
+			</div>
+            <!-- End Top Banner -->
+            <!-- Begin Main Content -->
+			<div id="content">
+				<div class="wrap">
+                    <h1>Learn With Devify</h1>
+					<div class="flex">
+                        <div class="halfPiece">
+                            <h1>What is HTML?</h1>
+                            <p>HTML stands for Hypertext Markup Language. While many people believe it is, HTML is not a programming language and instead a framework. Parsing of HTML is dependant on the renderer's browser, however it is generally based on standards by the W3C.</p>
+                            <p>It is used in front-end website development, making interacting with programs in the back-end such as those written with PHP or JavaScript (typically node.js) easier.</p>
+                            <p>It uses the .html file extension, however older systems may use .htm with uniform three character file extensions.</p>
+                        </div>
+                        <div class="halfPiece">
+                            <h1>What is CSS?</h1>
+                            <p>CSS is a stylesheet language which generally accompanies HTML. It stands for cascading style sheet and rendering is based upon standards, however is not uniform.</p>
+                            <p>It uses the .css file extension.</p>
+                        </div>
+					</div>
+                    <a href="examples.html" class="button">View Examples</a>
+				</div>
+			</div>
+            <!-- End Main Content -->
+		</main>
+        
+        <!-- Start Footer -->
+		
+		<footer>
+			<div class="wrap flex">
+                <!-- Start Contact Block -->
+				<div id="contact">
+					<h1>Contact</h1>
+					<ul>
+						<li>
+							<i class="fas fa-home"></i> Gwinnett Technical College
+							<br/>5150 Sugarloaf Pkwy<br/>Lawrenceville, GA 30043
+						</li>
+						<li>
+							<a href="tel:17709627580" class="mobile"><i class="fas fa-phone"></i> +1 (770) 962-7580</a><a class="desktop"><i class="fas fa-phone"></i> +1 (770) 962-7580</a>
+						</li>
+						<li>
+							<a href="mailto:contact@jaysonfong.me"><i class="fas fa-at"></i> contact@jaysonfong.me</a>
+						</li>
+					</ul>
+				</div>
+                <!-- End Contact Block -->
+                <!-- Begin About Block -->
+				<div id="about">
+					<h1>About</h1>
+					<ul>
+						<li>
+							Devify was born out of a dream with a new generation of websites. We aim to provide relevant knowledge and boast modern design techniques to power the creators of both today and tomorrow through education and enrichment.
+						</li>
+					</ul>
+				</div>
+                <!-- End About Block -->
+                <!-- Begin Links Block -->
+				<div id="links">
+					<h1>Links</h1>
+					<ul>
+						<li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+					</ul>
+				</div>
+                <!-- End Links Block -->
+			</div>
+            <!-- Copyright Notice -->
+			<p>&copy; Devify 2019 - All Rights Reserved</p>
+			<a id="up" class="desktop" href="#nav" title="Back to Top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+            <a id="back" href="" class="desktop" onclick="if (document.referrer.indexOf(window.location.host) !== -1) { history.go(-1); return false; } else { window.location.href = 'https://gtc.jaysonfong.us/cist1510/final/'; }"><i class="fas fa-step-backward"></i></a>
+		</footer>
+	
+		<script src="js/mobilenav.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
+		<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dd184cfe5003d1b"></script> 
+	</body>
+
+</html>

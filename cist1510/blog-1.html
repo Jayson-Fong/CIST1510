@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<!--
+		Created by Jayson Fong 2019
+		Created for Gwinnett Technical College
+		Licensed Under the MIT License to the Public
+		-->
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Get to know Devify's mission." />
+		<meta name="keywords" content="Devify,Create,Websites,Web Design,Web Development,FAQ,Frequently Asked Questions" />
+		<meta name="author" content="Devify" />
+		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+		
+		<link rel="icon" href="img/logo.png" type="image/png" />
+		<link rel="stylesheet" type="text/css" href="css/devify.css" />
+		<link rel="stylesheet" type="text/css" href="css/pace.css" />
+		
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+		
+		<title>Devify Blog | Backend Web Development</title>
+	</head>
+
+	<body>
+	
+        <!-- Begin Header Block -->
+        
+		<header>
+			<div class="wrap">
+				<div class="flex">
+					<div id="logo">
+						<h1>
+							<a href="index.html"><img alt="Devify Logo" src="img/logo.png" /> Devify</a>
+						</h1>
+                        <!-- Start Mobile Navigation Expand Button -->
+						<span class="mobile">
+							<a href="javascript:void(0);" onclick="navExpand()" id="expand" title="Toggle Navigation"><i id="expander" class="fa fa-bars"></i></a>
+						</span>
+                        <!-- End Mobile Navigation Expand Button -->
+					</div>
+                    
+                    <!-- Start Navigation -->
+                    
+					<div id="nav">
+						<ul>
+							<li class="navBorder"><a href="index.html" class="desktop"><i class="icon fas fa-home"></i></a><a href="index.html" class="mobile"><p>Home</p></a></li>
+							<li class="navBorder"><a href="learn.html"><p>Learn</p></a></li>
+							<li class="navBorder"><a href="examples.html"><p>Examples</p></a></li>
+							<li class="navBorder"><a href="resources.html"><p>Resources</p></a></li>
+							<li><a href="#contact"><p>Contact</p></a></li>
+						</ul>
+					</div>
+                    
+                    <!-- End Navigation -->
+                    
+				</div>
+			</div>
+		</header>
+        
+        <!-- End Header Block -->
+        
+		<main>
+            <!-- Start Top Banner -->
+			<div id="genBanner">
+				<div class="overlay">
+					<h1>Backend Web Development</h1>
+				</div>
+			</div>
+            <!-- End Top Banner -->
+            <!-- Begin Main Content -->
+			<div id="content">
+				<div class="wrap">
+					<h1>Backend Web Development</h1>
+					<div>
+						<div>
+                            <p>Backend web development is becoming increasingly critical with the need for interactive websites making access to information more efficient alongside data processing, especially in the realm of e-commerce. Various popular services including Amazon, Netflix, and Google leverage artificial intelligence to advance initiatives.</p>  
+                            <p>For Google, their backend systems publish search results based upon a user’s location, interests, and a variety of factors related to websites, heavily emphasizing design. It’s not uncommon to see Google’s analytics service to be included in many websites and it’s often hard to stay away from them. Their systems work by using JavaScript to submit data to their services which is then stored inside of a database for view later by webmasters and analysis by the company – often leading up to targeted advertising.</p>  
+                            <p>With the power of backend web development being laid upon programming languages such as PHP, JavaScript (server-side, such through node.js), Java, Ruby, and more, it’s permitting shared hosting to thrive.</p>  
+                            <p>Just recently, cPanel increased pricing to not only be based upon the amount and type of servers it was installed on, but also now the number of users using a server. With their monopoly over the website control panel industry, it’s hard to escape and causing many businesses to raise prices. cPanel is an application which manages a web server’s software through backend programming languages and can even manage the languages themselves with the power of CloudLinux such through PHP and Node.js version selectors and even Python.</p>  
+                            <p>Evidently, it’s necessary for web developers to expand their skill sets and acquire some background in backend web development to become more competent in the industry.</p>  
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- End Main Content -->
+		</main>
+        
+        <!-- Start Footer -->
+		
+		<footer>
+			<div class="wrap flex">
+                <!-- Start Contact Block -->
+				<div id="contact">
+					<h1>Contact</h1>
+					<ul>
+						<li>
+							<i class="fas fa-home"></i> Gwinnett Technical College
+							<br/>5150 Sugarloaf Pkwy<br/>Lawrenceville, GA 30043
+						</li>
+						<li>
+							<a href="tel:17709627580" class="mobile"><i class="fas fa-phone"></i> +1 (770) 962-7580</a><a class="desktop"><i class="fas fa-phone"></i> +1 (770) 962-7580</a>
+						</li>
+						<li>
+							<a href="mailto:contact@jaysonfong.me"><i class="fas fa-at"></i> contact@jaysonfong.me</a>
+						</li>
+					</ul>
+				</div>
+                <!-- End Contact Block -->
+                <!-- Begin About Block -->
+				<div id="about">
+					<h1>About</h1>
+					<ul>
+						<li>
+							Devify was born out of a dream with a new generation of websites. We aim to provide relevant knowledge and boast modern design techniques to power the creators of both today and tomorrow through education and enrichment.
+						</li>
+					</ul>
+				</div>
+                <!-- End About Block -->
+                <!-- Begin Links Block -->
+				<div id="links">
+					<h1>Links</h1>
+					<ul>
+						<li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+					</ul>
+				</div>
+                <!-- End Links Block -->
+			</div>
+            <!-- Copyright Notice -->
+			<p>&copy; Devify 2019 - All Rights Reserved</p>
+			<a id="up" class="desktop" href="#nav" title="Back to Top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+            <a id="back" href="" class="desktop" onclick="if (document.referrer.indexOf(window.location.host) !== -1) { history.go(-1); return false; } else { window.location.href = 'https://gtc.jaysonfong.us/cist1510/final/'; }"><i class="fas fa-step-backward"></i></a>
+		</footer>
+	
+		<script src="js/mobilenav.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
+		<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dd184cfe5003d1b"></script> 
+	</body>
+
+</html>
