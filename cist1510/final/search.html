@@ -21,7 +21,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 		
-		<title>Examples | FAQ</title>
+		<title>Search | Devify</title>
 	</head>
 
 	<body onresize="resetNav()">
@@ -66,31 +66,21 @@
             <!-- Start Top Banner -->
 			<div id="genBanner">
 				<div class="overlay">
-					<h1>Examples</h1>
+					<h1>Search</h1>
 				</div>
 			</div>
             <!-- End Top Banner -->
             <!-- Begin Main Content -->
 			<div id="content">
 				<div class="wrap">
-					<div class="flex">
-						<div class="halfPiece">
-							<h1>HTML5</h1>
-                            <ul>
-                                <li><a href="example-iframe.html">iFrames</a></li>
-                            </ul>
-						</div>
-						<div class="halfPiece">
-                            <h1>CSS</h1>
-                            <ul>
-                                <li><a href="example-background-color.html">Background Color</a></li>
-                            </ul>
-                        </div>
-					</div>
-                    <h1>Want to See More?</h1>
-                    <p>Help us improve by sending us some feedback!</p>
-                    <a href="more.html" class="button">Send Feedback</a>
-                    <p>We appreciate all constructive feedback!</p>
+                    <p>Search for pages and articles on Devify.</p>
+                    <form id="search-form">
+                        <label class="label" for="search">Search term:</label><br/>
+                        <input class="input" id="search" type="text" name="search" placeholder="e.g. History of" autocomplete="off">
+                        <ul class="list  list--results" id="list">
+                        </ul>
+                    </form>
+                    <noscript>Please enable JavaScript to use the search form.</noscript> 
 				</div>
 			</div>
             <!-- End Main Content -->
@@ -147,6 +137,9 @@
 		<script src="js/mobilenav.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
 		<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dd184cfe5003d1b"></script> 
+        <script src="./src/fetch.js"></script>
+        <script src="./src/search.js"></script>
+        <script src="js/jekyllSearchConfig.js"></script>
 	</body>
 
 </html>
