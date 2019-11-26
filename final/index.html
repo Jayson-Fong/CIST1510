@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<!--
+		Created by Jayson Fong 2019
+		Created for Gwinnett Technical College
+		Licensed Under the MIT License to the Public
+		-->
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Learn to create websites without a hassle and without the time constraints." />
+		<meta name="keywords" content="Devify,Create,Websites,Web Design,Web Development,Home" />
+		<meta name="author" content="Devify" />
+		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+		
+		<link rel="icon" href="img/logo.png" type="image/png" />
+		<link rel="stylesheet" type="text/css" href="css/devify.css" />
+		<link rel="stylesheet" type="text/css" href="css/pace.css" />
+		
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+		
+		<title>Devify | Home</title>
+	</head>
+
+	<body onresize="resetNav()">
+	
+        <!-- Begin Header Block -->
+        
+		<header>
+			<div class="wrap">
+				<div class="flex">
+					<div id="logo">
+						<h1>
+							<a href="index.html"><img src="img/logo.png" alt="logo" /> Devify</a>
+						</h1>
+                        <!-- Start Mobile Navigation Expand Button -->
+						<span class="mobile">
+							<a href="javascript:void(0);" onclick="navExpand()" id="expand" title="Toggle Navigation"><i id="expander" class="fa fa-bars"></i></a>
+						</span>
+                        <!-- End Mobile Navigation Expand Button -->
+					</div>
+                    
+                    <!-- Start Navigation -->
+                    
+					<div id="nav">
+						<ul>
+							<li class="navBorder"><a href="index.html" class="desktop"><i class="icon fas fa-home"></i></a><a href="index.html" class="mobile"><p>Home</p></a></li>
+							<li class="navBorder"><a href="learn.html"><p>Learn</p></a></li>
+							<li class="navBorder"><a href="examples.html"><p>Examples</p></a></li>
+							<li class="navBorder"><a href="resources.html"><p>Resources</p></a></li>
+							<li><a href="#contact"><p>Contact</p></a></li>
+						</ul>
+					</div>
+                    
+                    <!-- End Navigation -->
+                    
+				</div>
+			</div>
+		</header>
+        
+        <!-- End Header Block -->
+        
+		<main>
+            <!-- Start Top Banner -->
+			<div id="homeBanner">
+				<div class="overlay">
+					<h1>Design Proud</h1>
+					<p>With Devify, learn to create beautiful websites and integrations to fuel your business or hobby.</p>
+                    <a href="learn.html" class="button">Start Learning</a>
+				</div>
+			</div>
+            <!-- End Top Banner -->
+            <!-- Begin Main Content -->
+			<div id="content">
+				<div class="wrap">
+					<h1>Why Devify</h1>
+					<div class="flex">
+						<div>
+							<p>Devify was designed to provide the ideal experience to develop modern websites through interactive systems and examples. We strive to stay up to date on the latest methods to provide free, quality instructional material to the public.</p>
+							<p>We aim to create the web developers of tomorrow with various resources provided and displayed including certification oppertunities and other courses to ensure your success.</p>
+						</div>
+						<div class="reqImg">
+							<a href="img/htmlCssJs.jpeg" target="_blank"><img alt="HTML, CSS, and JS Logo" src="img/htmlCssJs.jpeg" /></a>
+						</div>
+					</div>
+					<h1>Daily Design</h1>
+					<div class="flex">
+						<div>
+							<p>Enjoy this short video on GitHub, a community of open source developers to easily publish your code to the world.</p>
+							<p>With GitHub, host your static websites for free and work in collaboration with other developers to improve upon and critique your work.</p>
+							<a href="https://github.com" target="_blank" class="button">Visit GitHub</a>
+						</div>
+						<div class="reqFrame">
+							<iframe class="youtube" width="400" height="200" src="https://www.youtube.com/embed/w3jLJU7DT5E" allowfullscreen></iframe>
+						</div>
+					</div>
+					<h1>Get Certified</h1>
+					<div class="flex">
+						<div>
+							<p>While HTML and CSS certifications are not in high demand, portfolios are and especially knowledge in those fields are essential to integrating websites with JavaScript, PHP, and more. You can also complete quizzes on Linkedin to show your expertise for free and advertise yourself to employers.</p>
+							<a href="https://www.linkedin.com/" target="_blank" class="button">Visit Linkedin</a>
+						</div>
+						<div class="reqTable">
+							<table id="certifications">
+								<tr>
+									<th>Sector</th>
+									<th>Certifying Organization</th>
+								</tr>
+								<tr>
+									<td>PHP</td>
+									<td><a target="_blank" href="https://www.zend.com/training/php-certification-exam">Perforce Software, Inc.</a></td>
+								</tr>
+								<tr>
+									<td>Java</td>
+									<td><a target="_blank" href="https://education.oracle.com/java/java/pFamily_48">Oracle</a></td>
+								</tr>
+								<tr>
+									<td>Overall</td>
+									<td><a target="_blank" href="https://www.microsoft.com/en-us/learning/exam-70-480.aspx">Microsoft Corporation</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<h1>Get Devify Certification</h1>
+					<div class="flex">
+						<div class="halfPiece">
+                            <p>With Devify certification, become more credible in the web design industry!</p>
+                            <p>Devify certifications are proctored to ensure integrity.</p>
+						</div>
+						<div class="halfPiece">
+							<p>Purchase a Devify certification voucher for just $549.99!</p>
+							<form method="post" action="http://webdevbasics.net/cart.html">
+                                <input type="submit" value="Add to Cart" />
+                            </form>
+						</div>
+					</div>
+                    <h1>Enjoy Devify</h1>
+                    <div class="flex">
+                        <div class="halfPiece">
+                            <img src="img/directions.png" alt="Directions" usemap="#directions" />
+                            <map name="directions">
+                                <area alt="Learn" title="Learn" href="learn.html" coords="90,122,81,126,69,126,62,122,50,124,39,119,37,110,26,104,22,97,23,88,30,81,34,71,42,66,51,64,63,63,75,61,83,61,90,68,97,70,106,73,111,83,111,90,109,98,112,106,110,115,103,123" shape="poly">
+                                <area alt="Examples" title="Examples" href="examples.html" coords="169,87,162,92,152,92,144,89,132,89,123,89,117,82,113,75,106,69,103,61,103,54,109,45,113,36,122,31,133,30,141,33,149,26,157,27,166,30,173,36,181,39,186,44,189,53,187,62,190,69,190,77,186,84,180,87" shape="poly">
+                            </map>
+                        </div>
+                        <div class="halfPiece">
+                            <p>Enjoy some web development voices!</p>
+                            <audio controls="controls" id="webDevelopment"><source src="extra/webDevelopment.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+                        </div>
+                    </div>
+				</div>
+			</div>
+            <!-- End Main Content -->
+		</main>
+		
+        <!-- Start Footer -->
+        
+		<footer>
+			<div class="wrap flex">
+                <!-- Start Contact Block -->
+				<div id="contact">
+					<h1>Contact</h1>
+					<ul>
+						<li>
+							<i class="fas fa-home"></i> Gwinnett Technical College
+							<br/>5150 Sugarloaf Pkwy<br/>Lawrenceville, GA 30043
+						</li>
+						<li>
+							<a href="tel:17709627580" class="mobile"><i class="fas fa-phone"></i> +1 (770) 962-7580</a><a class="desktop"><i class="fas fa-phone"></i> +1 (770) 962-7580</a>
+						</li>
+						<li>
+							<a href="mailto:contact@jaysonfong.me"><i class="fas fa-at"></i> contact@jaysonfong.me</a>
+						</li>
+					</ul>
+				</div>
+                <!-- End Contact Block -->
+                <!-- Start About Block -->
+				<div id="about">
+					<h1>About</h1>
+					<ul>
+						<li>
+							Devify was born out of a dream with a new generation of websites. We aim to provide relevant knowledge and boast modern design techniques to power the creators of both today and tomorrow through education and enrichment.
+						</li>
+					</ul>
+				</div>
+                <!-- End About Block -->
+                <!-- Start Links Block -->
+				<div id="links">
+					<h1>Links</h1>
+					<ul>
+						<li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+					</ul>
+				</div>
+                <!-- End Links Block -->
+			</div>
+            <!-- Copyright Notice -->
+			<p>&copy; Devify 2019 - All Rights Reserved</p>
+			<a id="up" class="desktop" href="#nav" title="Back to Top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+		</footer>
+        <!-- Redirect to Sitemap, for Presentation Purposes Only... -->
+        <script src="js/sitemap.js"></script>
+        <!-- Redirect to Sitemap, for Presentation Purposes Only... -->
+		<script src="js/mobilenav.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
+	</body>
+
+</html>
