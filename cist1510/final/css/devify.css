@@ -231,6 +231,10 @@ footer ul {
     min-width: 50%;
 }
 
+.fourthPiece {
+    min-width: 25%;
+}
+
 #content a, #content a:link {
     text-decoration: none;
     color: #3a7ae8;
@@ -303,6 +307,18 @@ footer ul {
     padding-left: 0;
 }
 
+.gallery span {
+    display: none;
+}
+
+.gallery:hover span {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    background-color: #fff;
+}
+
 .mobile {
 	display: none;
 }
@@ -344,4 +360,7 @@ footer ul {
 	#contact, #about, #links {
 		margin-left: 10%;
 	}
+    .gallery:hover span {
+        display: none;
+    }
 }
