@@ -4,67 +4,75 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/index.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/learn.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/examples.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/resources.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/faq.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gtc.jaysonfong.us/cist1510/final/blog.html</loc>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gtc.jaysonfong.us/cist1510/final/search.html</loc>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gtc.jaysonfong.us/cist1510/final/gallery.html</loc>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/privacy.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/example-iframe.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/example-background-color.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/more.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://gtc.jaysonfong.us/cist1510/final/blog.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://gtc.jaysonfong.us/cist1510/final/blog-1.html</loc>
-  <lastmod>2019-11-21T21:07:48+00:00</lastmod>
+  <lastmod>2019-11-28T00:30:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
